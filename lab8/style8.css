@@ -1,0 +1,223 @@
+body{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;}
+#user_name{top:25%;
+    left:10%;}
+#comp_name{top:25%;
+    left:75%;}
+.names{font-size:25px;
+    font-weight:bold;
+    width:150px;
+    height:45px;
+    border-radius:10px;
+    display:flex;   
+    justify-content:center;    
+    align-items:center; 
+    position:absolute;}
+
+#user_score{top:31%;
+    left:10%;}
+#comp_score{top:31%;
+    left:75%;}
+.scores{background-color:#1E90FF;
+    border: 3px solid black;
+    width:150px;
+    height:45px;
+    border-radius:10px;
+    display:flex;
+    font-size:25px;
+    font-weight:bold;
+    position:absolute;
+    justify-content:center;    
+    align-items:center;}
+
+#user_point{top:41%;
+    left:10%;}
+#comp_point{top:41%;
+    left:75%;}
+.points{background-color:yellow;
+    width:145px;
+    height:145px;
+    border-radius:100%;
+    border:3px solid black;
+    display:flex;
+    font-size:45px;
+    font-weight:bold;
+    position:absolute;
+    justify-content:center;    
+    align-items:center;}
+
+#butt{width:250px;
+    background-color:#7CFC00;
+    height:100px;
+    border-radius:10px;
+    border:3px solid black;
+    display:flex;
+    font-size:35px;
+    font-weight:bold;
+    position:absolute;
+    top:40%;
+    left:37.5%;
+    justify-content:center;    
+    align-items:center;}
+
+@media screen and (max-width:900px){
+    #butt{width:200px;
+    height:80px;
+    font-size:25px;
+    left:35.8%;}
+
+#user_name{left:5%;}
+#comp_name{left:75%;}
+.names{font-size:25px;
+    width:140px;
+    height:43px;}
+
+#user_score{left:5%;}
+#comp_score{left:75%;}
+.scores{width:140px;
+    height:43px;
+    font-size:23px;}
+
+#user_point{left:5%;}
+#comp_point{left:75%;}
+.points{height:135px;
+    width:135px;
+    font-size:35px;}}
+
+@media screen and (max-width:720px){
+    #butt{width:155px;
+    height:65px;
+    font-size:20px;
+    left:39%;}
+
+#user_name{left:4%;
+    top:25%;}
+#comp_name{left:78%;
+     top:25%;}
+.names{font-size:20px;
+    width:115px;
+    height:37px;}
+
+#user_score{left:4%;}
+#comp_score{left:78%;}
+.scores{width:115px;
+    height:37px;
+    font-size:18px;}
+
+#user_point{left:4.5%;}
+#comp_point{left:78.5%;}
+.points{height:100px;
+    width:100px;
+    font-size:28px;}}
+
+@media screen and (max-width:650px){
+    #butt{width:155px;
+    height:65px;
+    font-size:20px;
+    left:36%;}
+
+#user_name{left:5%;
+    top:25%;}
+#comp_name{left:74%;
+     top:25%;}
+.names{font-size:20px;
+    width:115px;
+    height:37px;}
+
+#user_score{left:5%;}
+#comp_score{left:74%;}
+.scores{width:115px;
+    height:37px;
+    font-size:18px;}
+
+#user_point{left:5.5%;}
+#comp_point{left:74.5%;}
+.points{height:100px;
+    width:100px;
+    font-size:28px;}}
+
+@media screen and (max-width:580px){
+    #butt{width:155px;
+    height:65px;
+    font-size:20px;
+    left:36%;}
+
+#user_name{left:3%;
+    top:25%;}
+#comp_name{left:73%;
+     top:25%;}
+.names{font-size:20px;
+    width:115px;
+    height:37px;}
+
+#user_score{left:3%;}
+#comp_score{left:73%;}
+.scores{width:115px;
+    height:37px;
+    font-size:18px;}
+
+#user_point{left:3.5%;}
+#comp_point{left:73.5%;}
+.points{height:100px;
+    width:100px;
+    font-size:28px;}}
+
+@media screen and (max-width:480px){
+    #butt{width:100px;
+    height:45px;
+    font-size:16px;
+    left:38%;}
+
+#user_name{
+    top:31%;}
+#comp_name{left:74%;
+    top:31%;}
+.names{font-size:16px;
+    width:85px;
+    height:25px;}
+
+#user_score{left:3%;
+    top:35%;}
+#comp_score{left:74%;
+    top:35%;}
+.scores{width:85px;
+    height:25px;
+    font-size:14px;}
+
+#user_point{left:4%;}
+#comp_point{left:75%;}
+.points{height:70px;
+    width:70px;
+    font-size:20px;}}
+
+@media screen and (max-width:350px){
+    #butt{width:85px;
+    height:35px;
+    border:2px solid black;
+    font-size:12px;
+    left:37%;}
+
+#user_name{left:4%;
+    top:31%;}
+#comp_name{left:73%;
+    top:31%;}
+.names{font-size:14px;
+    width:75px;
+    height:25px;}
+
+#user_score{left:4%;
+    top:35%;}
+#comp_score{left:73%;
+    top:35%;}
+.scores{width:75px;
+    height:25px;
+    font-size:14px;}
+
+#user_point{left:6%;}
+#comp_point{left:75.5%;}
+.points{height:55px;
+    width:55px;
+    font-size:20px;
+    border:2px solid black;}}
