@@ -1,0 +1,79 @@
+body{
+background-image: url('img/20.jpg');
+
+}
+.boxText{   
+    margin-bottom:5%;
+  }
+  .text{
+    width:100%;
+    text-align:center;
+    font-weight:bold;
+    color: blanchedalmond;
+    font-size: 20px;
+  }
+  .rectangl{
+    width: 120px;
+    height: 40px;
+    background: rgb(182, 25, 25);
+    border-radius:6%;
+    margin-bottom:5%;
+  }
+   .rectangl2{
+    width: 120px;
+    height: 40px;
+    background: rgb(182, 25, 25);
+    border-radius:6%;
+    margin-bottom:5%;
+  }
+  .middleRectagl{
+    width: 150px;
+    height: 50px;
+    background: #18abbe;
+    border-radius:5%;
+    margin-top:50%;
+   
+  }
+  .textRectagl{
+    padding-top:10px;
+  }
+  .textMiddleRectagl{
+    padding-top:15px;
+    text-decoration-color: black;
+  }
+  .cart1 {
+    background-image:url('../img/8.png');
+    background-size:contain;
+    height: 150%;
+    width: 100%;
+  }
+  .cart2 {
+    background-image:url('../img/8.png');
+    background-size:contain;
+    height: 150%;
+    width: 100%;
+  }
+  .box{
+    margin-left:5%;
+    margin-right:5%;
+  }
+  .container{
+    display:flex;
+    margin-left:25%;
+  }
+  @media screen and (max-width: 1400px){
+  .container{
+    margin-left:19%;
+  }
+  }   
+  @media screen and (max-width: 900px){
+  .container{
+    margin-left:11%;
+  }
+  }
+  @media screen and (max-width: 600px){
+  .container{
+    margin-left:0%;
+  }   
+  }
+  
