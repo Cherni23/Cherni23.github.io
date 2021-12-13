@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 12</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="block_quest">
+            <div class="steps"></div>
+            <div class="question"></div>
+            <div class="form">
+                <input type="text" class="in" id="input" placeholder="Введіть слово англійською">
+                <button class="btn" id="check">Перевірити</button>
+                <button class="btn" id="reload">Повернутись до вибору рівня</button>
+            </div>
+            <div id="score">
+                <h4>Ваши знания добрі</h4>
+                <div id="wrong">Неправильна відповідь: <span>0</span></div>
+                <div id="success">Правильна відповідь: <span>0</span></div>
+                
+            </div>
+            
+        </div>
+    </div>
+    <div class="wrapper_blocs">
+        <p>Choose level!</p>
+        <div class="choise_actions-level" id="levels"></div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/store.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
