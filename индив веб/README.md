@@ -1,1 +1,1 @@
-# Cherni23.github.io/individual/
+# Cherni23.github.io/individual
