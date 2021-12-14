@@ -1,0 +1,45 @@
+body{
+    background-image: url('back.jpg');
+    background-size:cover;
+    position: static;
+    overflow: hidden;
+    height: 100%;
+}
+.container{
+ margin-left: 12%;
+   margin-top: 10%;
+    max-width: 74%;
+    max-height: 800px;
+    padding: 25px;
+}
+img{
+  width: 23%;  
+  display: block;
+  margin-left: 1%;
+  float: left;
+  border: 2px dotted #f2f2f2;
+  border-radius: 8px;
+border-radius: 13%;
+cursor: pointer;
+}
+img:hover{
+    background: #e8eaff;
+    transition: ease all .3s;
+    border: 2px solid #251e1e;
+    transform: scale(1.2);
+}
+.text{
+
+    border: 3px solid #f2f2f2;
+    border-radius: 20px;
+    background: linear-gradient(to bottom right,rgb(255, 255, 255), rgba(113, 185, 207, 0.411));
+    margin-left: -2%;
+    margin-right: auto;
+   text-align: center;
+    color: rgb(8, 8, 7);
+    font-size: 45px;
+    margin-bottom: 5%;
+    margin-top: -3%;
+    font-weight: bold;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+}
